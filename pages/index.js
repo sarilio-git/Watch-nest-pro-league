@@ -560,14 +560,24 @@ export default function Home() {
         </div>
       </main>
       <footer className={styles.footer}>
-        <a
-          className="max-w-fit"
+        <div className="items-center align-middle justify-center"><a className="items-center align-middle justify-center" href="https://www.nestgo.online"><img className="max-w-fit h-10 w-25" alt="Logo" src="/nest_logohw2.png"/></a></div>
+        <div className="bg-center items-center"><a
+          className="font-bold max-w-fit"
           href="https://www.nestgo.online"
           target="blank"
           rel="noopener noreferrer"
-        >
-          nest - GAME ON, LEARN ON
+        ><span className="text-center text">GAME ON, LEARN ON</span>
         </a>
+        <a
+          className="font-medium max-w-fit"
+          href="https://github.com/Conrage"
+          target="blank"
+          rel="noopener noreferrer"
+        >
+          Powered by{" "}
+          <span className="font-medium text-blue-500 text-center">Crazynn</span>
+        </a>
+                </div>
           </footer>
     </div>
   );
